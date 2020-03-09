@@ -7,14 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   username = '';
-  allowButtonClick = false;
-
-  isUsernameEmpty() {
-    this.allowButtonClick = (this.username == "" ? false : true);
-  }
-
-  resetUsername() {
-    this.username = '';
-    this.allowButtonClick = false;
-  }
 }
